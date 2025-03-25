@@ -9,10 +9,10 @@ const OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 // Conexão com o banco de dados
 const dbPool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'gestorhub',
+  host: 'sql212.byethost17.com',
+  user: 'b17_37244880',
+  password: 'serpente21',
+  database: 'b17_37244880_gestorhub',
   connectionLimit: 10,
 });
 
